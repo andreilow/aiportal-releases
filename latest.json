@@ -1,0 +1,8 @@
+{
+  "version": "3.25.0",
+  "title": "Update center",
+  "notes": "- One-click self-update: this button, on every build\n- Purple home goes straight to image/video/audio everywhere\n- Back arrow in projects returns to your project list\n- Notification bell: ComfyUI detection + AIP Upscaler model downloads\n- Explore layout aligned",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.25.0.zip",
+  "sha256": "1519b736911d2680887921e5427b808b0d0fb1396122d27d57ef86cf0a35a55c",
+  "date": "2026-09-08"
+}
