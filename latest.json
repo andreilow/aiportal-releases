@@ -3,6 +3,6 @@
   "title": "Updater fix",
   "notes": "- Restart & update now actually restarts and updates (the updater runs through PowerShell \u2014 the old cmd launcher choked on the space in the install path and failed silently)\n- Update problems now show an error in the panel instead of doing nothing\n- New releases are visible instantly (uncached feed check)",
   "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.25.2.zip",
-  "sha256": "52bb3a702d326bd16f6965e86fe20f7b4ec6516c64615fd38e2c0059eca18795",
+  "sha256": "91120dd7219186a591a7fbce5c077b776825f274318f4f03f4c96f1f8306876e",
   "date": "2026-09-08"
 }
