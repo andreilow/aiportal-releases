@@ -1,8 +1,8 @@
 {
-  "version": "3.25.3",
-  "title": "Update loop test",
-  "notes": "- Marker release for testing the self-update loop end to end\n- Carries the fixed updater (v3.25.2: PowerShell relay, error surfacing, instant feed checks)\n- Plus everything from Git test and refinements (seamless transitions, no double bar, aligned explore)",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.25.3.zip",
-  "sha256": "8bbac9bac3696adb53261f2dc8d31ec98265531978362c4005ce9a1b515ce311",
-  "date": "2026-09-09"
+  "version": "3.26.0",
+  "title": "Video modes & clay pipeline",
+  "notes": "- Video workspace rework: four generation modes (Reference to video, Start-to-end frame, Video edit, Video extend), duration slider with Smart time, mp4/mov, xN takes\n- Clay-to-video pipeline: blockout staging + the official Seedance 2.5 white-model prompt protocol built in\n- Seed lock now saves with the project and restores on reopen\n- Every generation embeds its seed and model in the file's metadata\n- Audio/notification popups no longer hide behind the video-mode panels",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.26.0.zip",
+  "sha256": "5821819183800743a9ffc8d9146acab53e8cad2ffcdac95747eb6fb3d166373b",
+  "date": "2026-09-16"
 }
