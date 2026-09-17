@@ -1,8 +1,8 @@
 {
-  "version": "3.27.0",
-  "title": "Moodboard Library",
-  "notes": "- LIBRARY button in the Refs rail: Figma-style moodboards per project \u2014 pan/zoom canvas, multiple boards, upload, pick from your renders\n- Built-in Pinterest browser: log in once, right-click any pin or drag it onto your board \u2014 full-resolution originals download automatically\n- Send any board image to Input, Refs, or the Gemini chat\n- Locked-seed history: every seed you lock is kept with a thumbnail \u2014 jump back anytime\n- Audio, notification and update popups now always render above the UI in every mode\n- Continue cards on the home open their project directly",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.27.0.zip",
-  "sha256": "e82462d2f88ee53cccc0d5152eb278b3438e86562b77f018c7505060fa2e84e8",
+  "version": "3.27.1",
+  "title": "Library toolbar fix",
+  "notes": "- The library's Upload / Renders / Pinterest buttons are fully hoverable again (dead stripes from the window-drag region beneath the overlay)",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.27.1.zip",
+  "sha256": "b826f09d102c57bf39ad7a9a537bc12f64ac554f23e2ece2cdea5b9b42ba1bd6",
   "date": "2026-09-17"
 }
