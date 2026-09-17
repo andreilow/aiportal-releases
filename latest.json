@@ -1,8 +1,8 @@
 {
-  "version": "3.27.1",
-  "title": "Library toolbar fix",
-  "notes": "- The library's Upload / Renders / Pinterest buttons are fully hoverable again (dead stripes from the window-drag region beneath the overlay)",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.27.1.zip",
-  "sha256": "b826f09d102c57bf39ad7a9a537bc12f64ac554f23e2ece2cdea5b9b42ba1bd6",
+  "version": "3.27.2",
+  "title": "Drops land where you drop",
+  "notes": "- Images dragged onto a moodboard now appear exactly where you release them (was: center of the board)\n- Holds even if you pan or zoom while a Pinterest image is still downloading",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.27.2.zip",
+  "sha256": "8f2a6f14c644eddd6c302be3edfb8de2821dba700d12aba8071f99f1ca12134b",
   "date": "2026-09-17"
 }
