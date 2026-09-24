@@ -1,8 +1,8 @@
 {
-  "version": "3.28.0",
-  "title": "Look Lock, moodboard multi-select & undo, finished-generation pops",
-  "notes": "- Seedream: Look Lock \u2014 pin a render as the look (Scene / Style), with a history that restores its setup\n- Seedream: Lighting creativity slider (0 keeps the cutout's light, 100 invents a cinematic setup)\n- Moodboard: Ctrl+Z / Ctrl+Shift+Z (20 steps), right-drag to select several cards, group move / delete, Ctrl+A\n- Notifications: a 'generation finished' card springs out of the bell while the moodboard is open or the app is in the background, with a chime (volume in the sound menu) and a taskbar flash\n- Variants line up with the generation view (thumb chips in the file bar); the overlay eye is never dead\n- Home opens a project directly under the purple frame; library button and top bar stay lit while generating\n- Gemini chat: calm frosted colour wash; negative prompts always parsed into their box\n- Updater v3 (runs outside the app's process tree) + many QA fixes",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.28.0.zip",
-  "sha256": "97b359751392ec686a71e85966813a0cbd767d3fb005beceb7001d7efaca03f4",
-  "date": "2026-09-20"
+  "version": "3.28.2",
+  "title": "Figma in the library, home news desk, overlay scrollbars, unified API keys",
+  "notes": "- Library: an AI Portal ⇄ Figma switch — the real Figma app becomes your board (stays open in the background, no reloads); Ctrl+C / Ctrl+V both ways, Snapshot → board, Pinterest and drops land in Figma, 'Send to Figma' on cards\n- Home: a news desk (photo slides, release notes, roadmap, tips) replaces Explore; Continue cards open under the purple frame only\n- Scrollbars: thin overlay bars everywhere — they only show while you scroll\n- One API keys panel for every provider (Google, BytePlus, FLUX, Qwen, Magnific, Anthropic), key icon on every bar\n- Latest renders picker and boards load cached thumbnails — no more lag\n- Seedream x4: live slot strip, safe retries, slots wait for a free BytePlus lane, failed slots keep their number and reason, Cancel keeps finished images\n- Fix: the Red brain hint was silently skipped whenever an input image was present (3.28.0)",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.28.2.zip",
+  "sha256": "a585a2ce2242a770bd3db1ab749d1558e17e46b698e7ec356d9d9770ce5cc0f0",
+  "date": "2026-09-24"
 }
