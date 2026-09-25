@@ -1,8 +1,8 @@
 {
-  "version": "3.28.2",
-  "title": "Figma in the library, home news desk, overlay scrollbars, unified API keys",
-  "notes": "- Library: an AI Portal ⇄ Figma switch — the real Figma app becomes your board (stays open in the background, no reloads); Ctrl+C / Ctrl+V both ways, Snapshot → board, Pinterest and drops land in Figma, 'Send to Figma' on cards\n- Home: a news desk (photo slides, release notes, roadmap, tips) replaces Explore; Continue cards open under the purple frame only\n- Scrollbars: thin overlay bars everywhere — they only show while you scroll\n- One API keys panel for every provider (Google, BytePlus, FLUX, Qwen, Magnific, Anthropic), key icon on every bar\n- Latest renders picker and boards load cached thumbnails — no more lag\n- Seedream x4: live slot strip, safe retries, slots wait for a free BytePlus lane, failed slots keep their number and reason, Cancel keeps finished images\n- Fix: the Red brain hint was silently skipped whenever an input image was present (3.28.0)",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.28.2.zip",
-  "sha256": "a585a2ce2242a770bd3db1ab749d1558e17e46b698e7ec356d9d9770ce5cc0f0",
-  "date": "2026-09-24"
+  "version": "3.29.0",
+  "title": "GPT Image 2.5, engine families, accurate pricing",
+  "notes": "- New engine: OpenAI GPT Image 2.5 — Sunburst (editing precision, the default) and Flare (fast). Your cutout goes in protected by a mask, the scene is painted around it, and the exact token cost of each render is recorded. Needs an OpenAI key (keys panel) on a verified organization\n- Engine picker shows families (NanoBanana · Seedream · GPT Image · FLUX.2 · Qwen-Image · Upscaler), always landing on the latest version; the exact version is picked in the tune drawer's new Model card\n- Prices checked against every provider's current list and served from one table (NanoBanana Pro is $0.134 at 1K and 2K, $0.24 at 4K; Seedream 4.5 $0.045; FLUX.2 Max from $0.07; Qwen 2.0 Pro $0.075)\n- Project cards: the hover text is gone; a subtle purple glow instead, and the first row no longer clips when it lifts\n- Keys panel: rows with a stored key glow softly; the welcome bar matches the home frame's lighter glass\n- Home news: a GPT Image slide and the 3.29 release notes",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.29.0.zip",
+  "sha256": "9a2d56aeb90d4ff319ed84ea269a2d4d743aa39522016e8d558e4ce5eb8ece34",
+  "date": "2026-09-25"
 }
