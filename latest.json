@@ -1,8 +1,8 @@
 {
-  "version": "3.29.0",
-  "title": "GPT Image 2.5, engine families, accurate pricing",
-  "notes": "- New engine: OpenAI GPT Image 2.5 — Sunburst (editing precision, the default) and Flare (fast). Your cutout goes in protected by a mask, the scene is painted around it, and the exact token cost of each render is recorded. Needs an OpenAI key (keys panel) on a verified organization\n- Engine picker shows families (NanoBanana · Seedream · GPT Image · FLUX.2 · Qwen-Image · Upscaler), always landing on the latest version; the exact version is picked in the tune drawer's new Model card\n- Prices checked against every provider's current list and served from one table (NanoBanana Pro is $0.134 at 1K and 2K, $0.24 at 4K; Seedream 4.5 $0.045; FLUX.2 Max from $0.07; Qwen 2.0 Pro $0.075)\n- Project cards: the hover text is gone; a subtle purple glow instead, and the first row no longer clips when it lifts\n- Keys panel: rows with a stored key glow softly; the welcome bar matches the home frame's lighter glass\n- Home news: a GPT Image slide and the 3.29 release notes",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.29.0.zip",
-  "sha256": "9a2d56aeb90d4ff319ed84ea269a2d4d743aa39522016e8d558e4ce5eb8ece34",
-  "date": "2026-09-25"
+  "version": "3.30.0",
+  "title": "Accounts: sign in, keys that follow you, remote access control, bug reports",
+  "notes": "- Sign in with email + password (create the account inside the app). Access is confirmed with the AI Portal server at launch and every 6 h, and keeps working 7 days offline after the last confirmation\n- Your API keys travel with the account: encrypted on your machine with your password (AES-GCM) before upload — the server only ever stores ciphertext. Saved keys land on every machine you sign in to\n- Report a bug from the account menu: what happened, the last generation trace (settings + timings, no images), an optional screenshot, and your prompt only when you tick it\n- Anonymous usage and crash data helps fix bugs fast — opt-in at sign-in, switchable any time in the account menu; never prompts, images or keys\n- Every generating route now requires a signed-in, active account\n- Confirming a new account and resetting a password happen inside the app with a 6-digit code from the email — no links, nothing opens in a browser. Password fields have an eye to show what you typed\n- The app checks in every 5 minutes: a required update, a message from AI Portal or a paused account reaches every open app within minutes",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.0.zip",
+  "sha256": "70d25ae813cadf1e9fefa814359f81b20d2dd8d38fca4001a97c24086a48bd3d",
+  "date": "2026-09-26"
 }
