@@ -1,8 +1,8 @@
 {
-  "version": "3.30.0",
-  "title": "Accounts: sign in, keys that follow you, remote access control, bug reports",
-  "notes": "- Sign in with email + password (create the account inside the app). Access is confirmed with the AI Portal server at launch and every 6 h, and keeps working 7 days offline after the last confirmation\n- Your API keys travel with the account: encrypted on your machine with your password (AES-GCM) before upload — the server only ever stores ciphertext. Saved keys land on every machine you sign in to\n- Report a bug from the account menu: what happened, the last generation trace (settings + timings, no images), an optional screenshot, and your prompt only when you tick it\n- Anonymous usage and crash data helps fix bugs fast — opt-in at sign-in, switchable any time in the account menu; never prompts, images or keys\n- Every generating route now requires a signed-in, active account\n- Confirming a new account and resetting a password happen inside the app with a 6-digit code from the email — no links, nothing opens in a browser. Password fields have an eye to show what you typed\n- The app checks in every 5 minutes: a required update, a message from AI Portal or a paused account reaches every open app within minutes",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.0.zip",
-  "sha256": "70d25ae813cadf1e9fefa814359f81b20d2dd8d38fca4001a97c24086a48bd3d",
+  "version": "3.30.1",
+  "title": "Instant messages from AI Portal, sign-up from a link, sturdier bug reports",
+  "notes": "- The confirm step now also finishes when the email carries a confirmation link instead of a code: click the link, come back, you are signed in\n- Clearer wording when an address is not confirmed yet\n- Messages from AI Portal arrive seconds after launch or sign-in (not up to 5 minutes later), spring out of the bell and play their own longer chime; they can be addressed to one account\n- A bug report goes through even when its attachments cannot be uploaded",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.1.zip",
+  "sha256": "15942a725b79a66c084cf1a065f8973c9d4336ad925b340e6c8dbc1085471efc",
   "date": "2026-09-26"
 }
