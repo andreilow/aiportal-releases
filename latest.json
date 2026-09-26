@@ -1,8 +1,8 @@
 {
-  "version": "3.30.1",
-  "title": "Instant messages from AI Portal, sign-up from a link, sturdier bug reports",
-  "notes": "- The confirm step now also finishes when the email carries a confirmation link instead of a code: click the link, come back, you are signed in\n- Clearer wording when an address is not confirmed yet\n- Messages from AI Portal arrive seconds after launch or sign-in (not up to 5 minutes later), spring out of the bell and play their own longer chime; they can be addressed to one account\n- A bug report goes through even when its attachments cannot be uploaded",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.1.zip",
-  "sha256": "15942a725b79a66c084cf1a065f8973c9d4336ad925b340e6c8dbc1085471efc",
+  "version": "3.30.2",
+  "title": "Complete bug reports",
+  "notes": "- A bug report now carries your current settings (engine, resolution, seed, look lock, lighting…), your prompt, your input and output images (downsized) and a screenshot — each switchable in the dialog\n- Attachments are stored with the report itself, no longer subject to storage permissions",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.2.zip",
+  "sha256": "a6f4da3ffb34122a6198d839011ea78fea6d769aebe2731c8abc39d9622f59b5",
   "date": "2026-09-26"
 }
