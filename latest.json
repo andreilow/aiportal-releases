@@ -1,8 +1,8 @@
 {
-  "version": "3.30.2",
-  "title": "Complete bug reports",
-  "notes": "- A bug report now carries your current settings (engine, resolution, seed, look lock, lighting…), your prompt, your input and output images (downsized) and a screenshot — each switchable in the dialog\n- Attachments are stored with the report itself, no longer subject to storage permissions",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.2.zip",
-  "sha256": "a6f4da3ffb34122a6198d839011ea78fea6d769aebe2731c8abc39d9622f59b5",
-  "date": "2026-09-26"
+  "version": "3.30.3",
+  "title": "Subject Lock, Seedream relighting in one render, local upscaler fixed",
+  "notes": "- Seedream 5.0 Pro copies a cutout's shading exactly, so above 'match' the app now pre-shades the cutout toward your scene's key light (worked out in a 2-3 second text step) and describes that light on the car in the prompt. Still one render, same price - verified render by render\n- Subject Lock (on by default): the cutout's box rides in the prompt as Seedream 5.0 Pro's official keep-unchanged region tag - free, no extra image, and lighting creativity keeps working. Works with Aspect = Auto and with any ratio from the dropdown: the cutout is letterboxed into that frame first (same scale and placement, the margins grow). Needs a transparent cutout\n- Silhouette mask is deprecated (old and unstable, it will be removed soon); it still steps aside while Lighting is above keep\n- No more thumbnails popping into the generating screen while a batch runs\n- AIP Upscaler (local ComfyUI) works off the owner's machine at last: the upscaler workflow ships with the app, model files are found wherever your ComfyUI keeps them, and a run refuses to start until ComfyUI, the models and the workflow are all in place (the bell says exactly what is missing)\n- AIP Upscaler shows every step with a real timer (starting ComfyUI, uploading, queued, upscaling, saving), Cancel stops it, a ComfyUI the app started closes with the app, the two studio model files download like the others\n- Bell: the setup card clears when the upscaler is ready, download progress survives a re-check, a stalled model download resumes, cards can be dismissed",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.30.3.zip",
+  "sha256": "99d1a0082fb5ce7e35e5d035503231103321ced757fa6cfece6a572cb0fba6ed",
+  "date": "2026-09-28"
 }
