@@ -1,8 +1,8 @@
 {
-  "version": "3.31.1",
-  "title": "Hotfix: sign-up codes up to 10 digits",
-  "notes": "- Fix: the confirmation and password-reset code box takes codes of 6 to 10 digits. The email carried 8 digits while the box stopped at 6, so new accounts could not be confirmed",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.1.zip",
-  "sha256": "909f052cfea518f22c7831936058de5bc691f87c88be206fa2537f3810943ad5",
+  "version": "3.31.2",
+  "title": "Update without signing in",
+  "notes": "- The sign-in screen shows when an update is available and installs it in one click; it also has its own Check for updates. Before, the screen covered the update button, so a signed-out user could not update\n- Fix (3.31.1): the confirmation and password-reset code box takes codes of 6 to 10 digits",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.2.zip",
+  "sha256": "adb1fe790cf3dd609ad2970d557aacb7d7d95313ecda4b1775ff79bce044c04f",
   "date": "2026-10-01"
 }
