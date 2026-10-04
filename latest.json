@@ -1,8 +1,8 @@
 {
-  "version": "3.31.2",
-  "title": "Update without signing in",
-  "notes": "- The sign-in screen shows when an update is available and installs it in one click; it also has its own Check for updates. Before, the screen covered the update button, so a signed-out user could not update\n- Fix (3.31.1): the confirmation and password-reset code box takes codes of 6 to 10 digits",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.2.zip",
-  "sha256": "adb1fe790cf3dd609ad2970d557aacb7d7d95313ecda4b1775ff79bce044c04f",
-  "date": "2026-10-01"
+  "version": "3.31.3",
+  "title": "Fix: typing after a Delete confirmation",
+  "notes": "- Fix: after a Delete confirmation the keyboard could stop typing letters into any field (renaming a project showed nothing) until you switched windows. Confirmations are now part of the app instead of Windows pop-ups",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.3.zip",
+  "sha256": "f39138889fe6ab0a3455dcd81288509bfcce46489e536e296ca22372a4b7cac0",
+  "date": "2026-10-04"
 }
