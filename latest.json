@@ -1,8 +1,8 @@
 {
-  "version": "3.31.3",
-  "title": "Fix: typing after a Delete confirmation",
-  "notes": "- Fix: after a Delete confirmation the keyboard could stop typing letters into any field (renaming a project showed nothing) until you switched windows. Confirmations are now part of the app instead of Windows pop-ups",
-  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.3.zip",
-  "sha256": "f39138889fe6ab0a3455dcd81288509bfcce46489e536e296ca22372a4b7cac0",
+  "version": "3.31.4",
+  "title": "Fix: parallel generations failing with a connection error",
+  "notes": "- Fix: x4 to x9 generations (Seedream, GPT Image and the other engines) no longer fail with \"connection dropped\" when the upload is slow or busy: a slow upload was being cut off after 15 seconds. Images now upload a few at a time, slow uploads are allowed to finish, and a stalled one is retried - it was never billed\n- Region edits: the Edits tab opens on the image you are editing (not on an older edit)\n- Alt + wheel also zooms out (down to 30%), so a selection can reach the picture's borders\n- An edit that comes back as an empty black area is retried and never pasted\n- Cancel is honoured while a slot waits for its upload turn\n- Seedream with a cutout: the car's exposure is matched to the scene before the render - a cutout rendered under dark studio light no longer stays a flat, dark car in a bright scene\n- Seedream: no more glowing neon line or flames along the car's roof at high lighting creativity in dark scenes",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.31.4.zip",
+  "sha256": "a60c9ee35b9fbb796780f0ee801f5a39316051da4ecc54e78bbca3ec5b8916f8",
   "date": "2026-10-04"
 }
