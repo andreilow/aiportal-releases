@@ -1,0 +1,10 @@
+{
+  "version": "3.36.2",
+  "title": "Pay by card",
+  "notes": "- Pay by card: plans can now be paid by card as well as with PayPal. Checkout and card management run on Stripe's own secure pages - AI Portal never sees your card\n- Billing shows how your plan is paid, and a card plan has Manage card & invoices: change the card and get your invoices and receipts on Stripe's page\n- The plan screen only offers the payment methods that are set up\n- Receipts and refund confirmations say how you paid",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.36.2.zip",
+  "sha256": "90aeef9d4d3f33196850ee48df4fad5ff51b866d1c8d2ed2793cbf46f2b19493",
+  "date": "2026-11-07",
+  "sig": "evCn07kLp9JMZdei1iFVz/en+nk1xBfJ9K2VfCcOplSp8lSrQhG9sfOyn1jLZLG9GnQV6OnXIITNG0nEYMbyCA==",
+  "kid": "u1"
+}
