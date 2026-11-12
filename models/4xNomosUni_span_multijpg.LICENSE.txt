@@ -1,0 +1,7 @@
+4xNomosUni_span_multijpg.safetensors
+A 4x SPAN super-resolution model by Philip Hofmann (Phhofm / Phips).
+Source: https://huggingface.co/Phips/4xNomosUni_span_multijpg
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+         https://creativecommons.org/licenses/by/4.0/
+Used by AI Portal as the Fast video upscale model, the 8K finisher of the AIP Upscaler, and the "Fast" model of Crisp 4x.
+The file is distributed unchanged. SHA-256: 3bedff643a1ba51b12e0174ebca62649a930ae3e7b0868be9706d8659d4d32a2

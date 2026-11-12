@@ -1,0 +1,11 @@
+{
+  "version": "3.36.13",
+  "title": "Private beta: the loading screen and the taskbar icon follow your look",
+  "notes": "- The loading screen and the taskbar icon now always match the look you chose.",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.36.13.zip",
+  "sha256": "93418f2e069bcc6423d51f9d16307f43cd996e5272a03effe269242cf9016e2f",
+  "date": "2026-11-12",
+  "sig": "Z5H81MOHemZIPuvewCQQca20lp1RfgOHpzLfvyIVETCOW9n673Gj0wL41irKrRYc8NoNJTLansnEhC6x3WKPBQ==",
+  "kid": "u1",
+  "channel": "private"
+}

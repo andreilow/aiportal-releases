@@ -1,0 +1,10 @@
+{
+  "version": "3.36.9",
+  "title": "Fits smaller screens, faster Portal Swapper",
+  "notes": "- AI Portal fits laptop screens: the window stays inside the screen, and when it is smaller than the layout the whole interface scales down to fit (Tune, the prompt bar and the top bar stay in view)\n- Portal Swapper: preparing a take is much faster, above all for vertical clips (a 10-second vertical clip took minutes, now well under one)",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.36.9.zip",
+  "sha256": "ba7bb3115cda225f490089ed7a190bb8f9ddfb866867ae92a75d300472180708",
+  "date": "2026-11-09",
+  "sig": "lD4L7EOwYLmOpPcFDnPacq0IfShBrSYNQh9ZDDS1Kkexl5Wh6fHpjEZoB9nfhhPMwo8p04CEz66vX6UdMEwpDw==",
+  "kid": "u1"
+}
