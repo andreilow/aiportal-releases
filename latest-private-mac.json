@@ -1,0 +1,17 @@
+{
+  "version": "3.36.21",
+  "title": "Updating on the Mac",
+  "notes": "- Updates: when AI Portal was moved while it was open, the Updates card says so and what to do\n- Updates: a Download the new version button appears when an update can't be installed in place\n- Starting: a copy left running in the background no longer gets in the way",
+  "platform": "mac",
+  "arch": "arm64",
+  "edition": "private",
+  "channel": "private",
+  "min_macos": "14.0",
+  "min_version": "",
+  "zip_url": "https://github.com/andreilow/aiportal-releases/releases/download/mac-v3.36.21/AI_Portal_v3.36.21_PRIVATE_mac_arm64.zip",
+  "sha256": "ea1d4f783c3f27d563b229884cb94f200c9643e5dff303d75a08dc26eb77041f",
+  "size": 186023170,
+  "date": "2026-11-25",
+  "sig": "efVnO2OLIazJIsjz55DsNxFPfor4Nac7R0nORtsEXWFfc9Pt/Vyp1qTKA2Yl29P55jfoldn/EfFudNIAJZ0bCg==",
+  "kid": "u1"
+}

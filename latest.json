@@ -1,0 +1,10 @@
+{
+  "version": "3.36.22",
+  "title": "Picture tags, more reference pictures and Motion only for cars",
+  "notes": "- Video inputs: every picture shows its tag (@Image1, @Image2 ...) and the clip shows @Video1. Hover an input to see it larger, with its tag\n- Video prompt: tags are marked in your text. Hover a tag to see its picture, type @ to pick one\n- Picture numbers pasted from other tools become our tags, and we ask you to check them. A tag without a picture stops the take and says which one\n- A reference you name for the location, the light or the look is no longer treated as the car, and the assistant writes these tags too\n- Reference pictures: up to 50 per take (36 on Seedance 2.0). Past the engine's own limit, the extra pictures are combined 4 to a reference\n- Drafts finish at 1080p from their menu, after one check that shows the price, and drafts are kept 14 days now\n- Mute input videos: your footage goes to Seedance without its sound, so its music cannot carry into the take (on by default, under Output)\n- Portal Swapper: Motion only for cars. Only the car's movement is used and the new car comes from your references; keep the scene as filmed or rebuild it, with Shape detail\n- Recast the shot: Cars in the shot. The car in each shot is rebuilt from your references too, with Shape detail\n- Portal Swapper: Objects now take up to 10 pictures per take (9 on Seedance 2.0), shared with the references\n- Typing stays smooth when a project holds many large pictures\n- When Seedance flags the sound of a take, the card says so and offers Retry without sound",
+  "zip_url": "https://raw.githubusercontent.com/andreilow/aiportal-releases/main/updates/update_v3.36.22.zip",
+  "sha256": "891fdd83d72d81e3e6b7796aea119c94eee2985de64689c55eec27496a30b051",
+  "date": "2026-11-27",
+  "sig": "ma6j3zTvWTkEgBQ95rhV8SPjhYrWFDmPcfgqw+Gc3gL0EV5t1NnL31BE4y5sJDSOauEwwvh9Vplv9H2RSTU7Cw==",
+  "kid": "u1"
+}
